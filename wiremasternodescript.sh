@@ -144,6 +144,33 @@ maxconnections=256
 externalip='$ip'
 masternodeprivkey='$key'
 masternode=1
+
+#addnodes
+addnode=108.61.95.114
+addnode=45.77.193.238
+addnode=45.32.133.67
+addnode=108.160.134.29
+addnode=207.148.86.107
+addnode=45.63.114.212
+addnode=45.32.22.184
+addnode=108.61.23.114
+addnode=104.156.254.203
+addnode=63.211.111.86
+addnode=144.202.78.8
+addnode=104.156.225.63
+addnode=173.199.71.62
+addnode=108.160.138.246
+addnode=45.77.0.247
+addnode=45.76.152.225
+addnode=144.202.8.219
+addnode=149.28.168.14
+addnode=108.61.224.93
+addnode=45.77.189.225
+addnode=45.76.232.61
+addnode=45.77.56.227
+addnode=149.28.37.186
+addnode=217.69.7.75
+addnode=202.182.107.213
 ' | sudo -E tee /home/masternode/.wire/wire.conf
 sudo chown -R masternode:masternode /home/masternode/.wire
 
